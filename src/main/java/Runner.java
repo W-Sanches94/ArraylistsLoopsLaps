@@ -80,6 +80,11 @@ public class Runner {
 
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 
+        for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) == 1 && numbers.get(i + 1) == 1){
+                System.out.println("True");
+            } else break;
+        }
 
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
