@@ -70,8 +70,17 @@ public class Runner {
 
 //        2. Print the difference between the largest and smallest value
 
+        int max = Collections.max(numbers);
+        int min = Collections.min(numbers);
+
+        System.out.println("The largest value is " + max + " and the lowest value is " + min + ".");
+        int difference = max - min;
+        System.out.println("The difference is " + difference + ".");
+
 
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
+
+
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
